@@ -28,7 +28,7 @@ git clone https://github.com/DFedizko/lista-de-compras.git
 
 <h2>Sobre</h2>
 
-Esse projeto foi criado através de um curso na alura "Javascript Construindo Páginas Dinâmicas" com o intuíto de aprimorar minhas habilidades em javascript e em manipulação do DOM.
+Esse projeto foi criado através de um curso na alura "Javascript Construindo Páginas Dinâmicas" com o intuíto de aprimorar minhas habilidades em javascript e manipulação do DOM.
 
 <h2>Desenvolvedor</h2>
 
