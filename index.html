@@ -17,28 +17,27 @@
         <img src="./img/bag.png" alt="Sacola de Compras">
         <form>
             <input id="input-item" type="text" placeholder="Digite o item que deseja adicionar">
-            <button id="adicionar-botao">Salvar item</button>
+            <button class="button-item" id="adicionar-item">Salvar item</button>
         </form>
 
-        
-        <ul>
+        <div class="container">
             <h2>Lista de Compras</h2>
             <hr />
-            <li>
-                <div class="item-lista-container">
-                    <div class="container-nome-compra">
-                        <input type="checkbox">
-                        <p>Ração de gato</p>
-                    </div>
-                    <div>
-                        <button><img src="./img/delete.svg" alt="Deletar"></button>
-                        <button><img src="./img/edit.svg" alt="Editar"></button>
-                    </div>
-                </div>
-                <p class="item-lista-texto">Segunda-feira (31/10/2022) às 08:30</p>
-            </li>
-        </ul>
+
+            <ul id="lista">
+                <p id="mensagem-lista-vazia" style="display: block;">Sua lista está vazia. Adicione itens a ela para não esquecer nada na próxima compra!</p>
+            </ul>
+    
+            <h2 id="titulo-comprado" style="display: none;">Comprado</h2>
+            <hr id="barra-comprado" style="display: none;">
+
+            <ul id="lista-comprados">
+                
+            </ul>
+        </div>
     </main>
+
+    <script src="app.js" type="module"></script>
 </body>
 
 </html>
